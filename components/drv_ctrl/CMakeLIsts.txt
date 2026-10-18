@@ -1,0 +1,4 @@
+idf_component_register(SRCS "drv_ctrl.c"
+                    INCLUDE_DIRS "include"
+                    PRIV_REQUIRES driver freertos esp_common drv_ssr
+)

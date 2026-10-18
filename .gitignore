@@ -1,0 +1,29 @@
+﻿# ESP-IDF缂栬瘧浜х墿
+build/
+sdkconfig
+sdkconfig.old
+*.elf
+*.bin
+*.map
+*.flash_args
+partition_table/partition-table.bin
+bootloader/bootloader.bin
+
+# 缁勪欢鑷姩鎷夊彇缂撳瓨
+managed_components/
+
+# VSCode閰嶇疆锛堝闇€淇濈暀.vscode鍒犳帀涓嬮潰杩欎竴琛岋級
+.vscode/
+.devcontainer/
+
+# 宸ュ叿鐢熸垚鏂囦欢
+compile_commands.json
+
+# Python缂撳瓨
+__pycache__/
+*.pyc
+*.pyo
+
+# 绯荤粺鏂囦欢
+Thumbs.db
+.DS_Store
